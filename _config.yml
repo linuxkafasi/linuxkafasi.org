@@ -23,6 +23,7 @@ google_analytics: UA-115651505-2
 disqus:
   shortname: linuxkafasi
 github_username: linuxkafasi
+rss: RSS
 
 # Build settings
 markdown: CommonMark
