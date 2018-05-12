@@ -109,7 +109,6 @@ DEPENDENCIES
   jekyll (~> 3.8.1)
   jekyll-commonmark (~> 1.2)
   jekyll-compose (~> 0.8.0)
-  jekyll-feed (~> 0.6)
   jekyll-gist (~> 1.5)
   jekyll-sitemap (~> 1.2)
   jemoji (~> 0.10.0)
