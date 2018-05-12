@@ -1,0 +1,45 @@
+---
+layout: home
+---
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.7.4/instantsearch.min.css" integrity="sha256-Ugv4DJ3sD2YIsv3zHbz8+GL4lY69nr97K37iPlYlu9k=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.7.4/instantsearch-theme-algolia.min.css" integrity="sha256-hVHrc0RFm+rSnYkDQlW+zuGu2LNAXbMKSmu186RwyzI=" crossorigin="anonymous" />
+
+<div style="text-align: center;">
+  <div id="search-box" onkeydown="s();"></div>
+  <div id="hits"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/instantsearch.js/2.7.4/instantsearch.min.js" integrity="sha256-4sU+nAUVD/sGUZ6y/RwFQeYDNh9jMGBNoHsRSyj30Is=" crossorigin="anonymous"></script>
+
+<script>
+  search = instantsearch({
+    appId: '{{ site.algolia.application_id }}',
+    apiKey: '{{ site.algolia.application_key }}',
+    indexName: '{{ site.algolia.index_name }}',
+    searchParameters: { restrictSearchableAttributes: ['title', 'content'] }
+  });
+
+  hitTemplate = function(hit) {
+    title = hit._highlightResult.title.value;
+    url = hit.url;
+    return `<a href="${url}">${title}</a>`;
+  }
+
+  search.addWidget(
+    instantsearch.widgets.searchBox({
+      container: '#search-box',
+      poweredBy:true,
+      reset: true,
+      loadingIndicator: true,
+      placeholder: 'Yazı arayın'
+    })
+  );
+
+  search.start();
+
+  function s() {
+    search.addWidget(instantsearch.widgets.hits({container: '#hits',templates: {empty: 'Sonuç yok!',item: hitTemplate}}));
+    search.start();
+  }
+</script>
