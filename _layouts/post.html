@@ -13,7 +13,16 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+        {% assign author = site.data.author[page.author] %}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">{{- author.name -}}</span>
+            •
+            <span style="text-decoration: none;">
+              <a href="https://github.com/{{ page.author | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
+              {%- if author.facebook -%}<a href="https://www.facebook.com/{{ author.facebook | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg></a>{%- endif -%}
+              {%- if author.twitter -%}<a href="https://www.twitter.com/{{ author.twitter | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a>{%- endif -%}
+            </span>
+          </span>
       {%- endif -%}</p>
   </header>
   <div class="post-content e-content" itemprop="articleBody">
