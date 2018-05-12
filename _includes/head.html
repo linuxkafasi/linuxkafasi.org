@@ -9,7 +9,7 @@
   <link rel="icon" href="{{ "/favicon.ico" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
+  {%- if jekyll.environment == 'production' -%}
+  <script>"1"!==window.doNotTrack&&"1"!==navigator.doNotTrack&&"yes"!==navigator.doNotTrack&&"1"!==navigator.msDoNotTrack&&(!function(a,t,e,o,n,g,c){a.GoogleAnalyticsObject=n,a.ga=a.ga||function(){(a.ga.q=a.ga.q||[]).push(arguments)},a.ga.l=1*new Date,g=t.createElement(e),c=t.getElementsByTagName(e)[0],g.async=1,g.src="https://www.google-analytics.com/analytics.js",c.parentNode.insertBefore(g,c)}(window,document,"script",0,"ga"),ga("create","{{ site.google_analytics }}","auto"),ga("send","pageview"));</script>
   {%- endif -%}
 </head>

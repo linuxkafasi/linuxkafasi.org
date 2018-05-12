@@ -20,8 +20,10 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
+  {%- if page.comments != false and jekyll.environment == "production" -%}
+    <div id="disqus_thread"></div>
+    <script>var disqus_config=function(){this.page.url="{{ page.url | absolute_url }}",this.page.identifier="{{ page.url | absolute_url }}"};!function(){var e=document,t=e.createElement("script");t.src="https://{{ site.disqus.shortname }}.disqus.com/embed.js",t.setAttribute("data-timestamp",+new Date),(e.head||e.body).appendChild(t)}();</script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
   {%- endif -%}
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
