@@ -25,6 +25,7 @@ defaults:
   -
     values:
       layout: post
+      author: linuxkafasi
 
 # Exclude files and directories
 exclude:
