@@ -23,6 +23,7 @@ disqus:
   shortname: linuxkafasi
 github_username: linuxkafasi
 rss: RSS
+timezone: Europe/Istanbul
 
 # Build settings
 markdown: CommonMark
