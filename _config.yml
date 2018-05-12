@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Linux Kafası
-email: merhaba@linuxkafasi.org
 description: Herşeyi ile katkı yapabileceğin bir blog sayfası
 baseurl: # the subpath of your site, e.g. /blog
 url: https://linuxkafasi.org # the base hostname & protocol for your site, e.g. http://example.com
