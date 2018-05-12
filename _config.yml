@@ -12,6 +12,7 @@ disqus:
   shortname: linuxkafasi
 algolia:
   application_id: 34HL377GK2
+  index_name: linuxkafasi-blog
 
 # Social links
 github_username: linuxkafasi
