@@ -1,8 +1,8 @@
 ---
 title: Hoşgeldin Linux Kafası'na
 author: Berkhan Berkdemir
-date: 2018-05-10 18:48 -0700
-update: 2018-05-10 19:20 -0700
+date: 2018-05-11 01:48:00
+date: 2018-05-11 02:20:00
 ---
 
 Öyle lorem ipsum'luk birşey yazmayacağım. Basbaya buraya geldiğin için teşekkür edeceğim aynı zamanda tebrik edeceğim. Neden mi?
