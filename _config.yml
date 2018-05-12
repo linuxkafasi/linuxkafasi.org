@@ -10,6 +10,8 @@ timezone: Europe/Istanbul
 google_analytics: UA-115651505-2
 disqus:
   shortname: linuxkafasi
+algolia:
+  application_id: 34HL377GK2
 
 # Social links
 github_username: linuxkafasi
