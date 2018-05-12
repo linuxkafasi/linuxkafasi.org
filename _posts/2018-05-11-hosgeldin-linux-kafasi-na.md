@@ -1,6 +1,6 @@
 ---
 title: Hoşgeldin Linux Kafası'na
-author: Berkhan Berkdemir
+author: BerkhanBerkdemir
 date: 2018-05-11 04:48:00
 update: 2018-05-11 05:20:00
 ---
