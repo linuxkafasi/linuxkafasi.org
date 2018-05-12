@@ -1,0 +1,22 @@
+# # Author.yml kullanım örneği
+#
+# * Front-matter'da ki normal değer `linuxkafasi` dır.
+# * Eğer kullanıcı herhangi bir sosyal medya adresi yok ise `false` değeri
+# atanacak.
+#
+# ```yaml
+# github_username:
+#   name: Lorem Ipsum
+#   twitter: lorem_ipsum
+#   facebook: loremIpsum
+# ```
+
+linuxkafasi:
+  name: Linux Kafası
+  facebook: false
+  twitter: false
+
+BerkhanBerkdemir:
+  name: Berkhan Berkdemir
+  facebook: false
+  twitter: BerkhanBerkdemi
