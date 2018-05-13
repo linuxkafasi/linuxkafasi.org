@@ -3,24 +3,23 @@ layout: default
 ---
 
 <div class="home">
+
   {{ content }}
 
   <div id="search-box" style="text-align: center;"></div>
   <noscript>Arama barını ve Disqus'ı kullanmak için JavaScript'i tarayıcınızdan açınız.</noscript>
 
-  <ul class="post-list" id="hits">
-    {%- for post in site.posts -%}
-    <li>
-      <span class="post-meta"><time datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time></span>
+  <div class="post-list" id="hits">
+    {% for post in site.posts %}
+    <div class="post-item">
       <h2>
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
         </a>
       </h2>
-    </li>
-    {%- endfor -%}
-  </ul>
-
-  {% include algolia.html %}
-
+    </div>
+    {% endfor %}
+  </div>
 </div>
+
+{% include algolia.html %}
