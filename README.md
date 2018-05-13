@@ -1,5 +1,7 @@
 # Linux Kafası - Özgür teknoloji blogu
 
+[![](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/linuxkafasi)
+
 // TODO: README ekle
 
 ## Dökümantasyon sayfası
@@ -12,5 +14,5 @@
 | -------------- | ------------ |
 | Tema           | MIT          |
 | Kod            | MIT          |
-| Yazilar/İçerik | CC BY-SA 3.0 |
+| Yazılar/İçerik | CC BY-SA 3.0 |
 
