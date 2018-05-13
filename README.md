@@ -1,12 +1,9 @@
 # Linux Kafası - Özgür teknoloji blogu
 
-[![](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/linuxkafasi)
+[![Gitter chat room](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/linuxkafasi)
+[![Docs URL](https://img.shields.io/badge/docs-read-green.svg)](https://github.com/linuxkafasi/linuxkafasi.org/wiki)
 
 // TODO: README ekle
-
-## Dökümantasyon sayfası
-
-* [Wiki](https://github.com/linuxkafasi/linuxkafasi.org/wiki)
 
 ## LISANS
 
