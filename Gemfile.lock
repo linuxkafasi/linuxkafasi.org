@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/linuxkafasi/lk.git
-  revision: b74974533d4199aac4717e9f766007de9b9ca381
+  revision: 589242759a952cee4a75914ea3280c114d04c777
   specs:
     lk (0.1.0)
       bootstrap (~> 4.1.0)
