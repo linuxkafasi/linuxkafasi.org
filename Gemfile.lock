@@ -128,6 +128,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll-algolia (~> 1.0)
   jekyll-compose (~> 0.8.0)
   jekyll-gist (~> 1.5)
   jemoji (~> 0.10.0)
