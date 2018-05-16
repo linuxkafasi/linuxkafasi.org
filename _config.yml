@@ -15,25 +15,27 @@ algolia:
   application_key: f4a1d89d52166ebeefd644421cd8ee69
   index_name: linuxkafasi-blog
   files_to_exclude:
-    - index.md
     - about.md
+    - atom.md
     - contact.md
-
-# Social links
-github_username: linuxkafasi
-rss: RSS
+    - index.md
+    - robots.md
+    - search.md
+    - sitemap.md
 
 # Build settings
-markdown: CommonMark
-theme: minima
+markdown: redcarpet
+theme: lk
 sass:
   sass_dir: _sass
   style: compressed
+permalink: /:slug
 defaults:
   -
     values:
       layout: post
       author: linuxkafasi
+      search: true
 
 # Exclude files and directories
 exclude:
