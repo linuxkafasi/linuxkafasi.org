@@ -6,7 +6,7 @@ category: Ubuntu
 ---
 
 Ubuntu 18.04 26 Ağustos 2018 çıkması ile bir çok yeniliğe imza attı ve yapmak
-istediği yeni şeylerinde olduğunu yeni bir [blog](https://blog.ubuntu.com/2018/05/18/desktop-plans-for-18-10)
+istediği yeni şeylerinde olduğunu yeni bir blog
 yazısı ile ortaya çıkardı.
 
 Kısaca bu blog yazısında Ubuntu 18.04'ün "point release" olan 18.04.01'e ve
@@ -60,3 +60,5 @@ kolaylaştırma da gündemde.
 Bu 18.04 planı iken 18.10'a geçti. Şu an planlanan tema şöyle gözükmekte
 
 ![](https://admin.insights.ubuntu.com/wp-content/uploads/8762/communitheme.png)
+
+[Kaynak](https://blog.ubuntu.com/2018/05/18/desktop-plans-for-18-10)
