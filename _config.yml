@@ -1,46 +1,24 @@
 # Site settings
 title: Linux Kafası
-description: Herşeyi ile katkı yapabileceğin bir blog sayfası
-baseurl:
+description: Yazılım hakkında haber alırken loop da bırkmayan kaynak
 url: https://linuxkafasi.org
 
 lang: tr
 timezone: Europe/Istanbul
 
+github_username:  linuxkafasi
 google_analytics: UA-115651505-2
 disqus:
   shortname: linuxkafasi
-algolia:
-  application_id: 34HL377GK2
-  application_key: f4a1d89d52166ebeefd644421cd8ee69
-  index_name: linuxkafasi-blog
-  files_to_exclude:
-    - about.md
-    - atom.md
-    - contact.md
-    - index.md
-    - robots.md
-    - search.md
-    - sitemap.md
 
 # Build settings
-markdown: redcarpet
-theme: lk
+markdown: kramdown
+theme: minima
 sass:
   sass_dir: _sass
   style: compressed
-permalink: /:slug
+permalink: /:year/:month/:slug
 defaults:
   -
     values:
       layout: post
-      author: linuxkafasi
-      search: true
-
-# Exclude files and directories
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - vendor
