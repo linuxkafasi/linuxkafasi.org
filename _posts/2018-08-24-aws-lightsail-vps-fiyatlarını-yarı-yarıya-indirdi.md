@@ -7,7 +7,7 @@ author: Berkhan Berkdemir
 
 [Lightsail](https://aws.amazon.com/lightsail/) basit VPS ihtiyaçlarını karşılayan bir AWS çözümü ki karşılığı olarak Digital Ocean veya OVH olmakta. 2 yıl içerisinde eklediği özellikler arasında block storage, Windows desteği ve ekstra bölgelerde hizmet olanağı tanıdı.
 
-Şimdi ise [TechCurnch'ın haberine göre](https://techcrunch.com/2018/08/23/aws-cuts-the-price-of-most-of-its-lightsail-virtual-private-servers-in-half/) birkaç yeni instance eklemek gibi eski instanceların fiyatlarını hatırı sayılır derecede düşürdü.
+Şimdi ise [TechCrunch'ın haberine göre](https://techcrunch.com/2018/08/23/aws-cuts-the-price-of-most-of-its-lightsail-virtual-private-servers-in-half/) birkaç yeni instance eklemek gibi eski instanceların fiyatlarını hatırı sayılır derecede düşürdü.
 
 |      | 512MB | 1GB | 2GB | 4GB | 8GB | 16GB | 32GB |
 | ---- | ------| --- | --- | --- | --- | ---- | ---- |
