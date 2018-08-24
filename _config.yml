@@ -6,10 +6,25 @@ url: https://linuxkafasi.org
 lang: tr
 timezone: Europe/Istanbul
 
-github_username:  linuxkafasi
-google_analytics: UA-115651505-2
-disqus:
-  shortname: linuxkafasi
+github_username:    linuxkafasi
+instagram_username: linuxkafasi
+twitter_username:   linuxkafas
+google_analytics:   UA-115651505-2
+
+# Jekyll SEO tag
+## DOC: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+twitter:
+  username: linuxkafas
+  card: summary
+
+logo: favicon.ico
+
+social:
+  name: Linux Kafası
+  links:
+  - https://github.com/linuxkafasi
+  - https://instagram.com/linuxkafasi
+  - https://twitter.com/linuxkafas
 
 # Build settings
 markdown: kramdown
