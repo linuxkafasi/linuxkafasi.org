@@ -9,6 +9,6 @@ GitHub, Microsoft'un alımından sonra gözle görülür bir hızla kullanıcı 
 
 Bugün eklediği beta aşamasında olan yeni özelliği ile eğer aktive edilmiş ise, kişinin commits, issue, pull request ve code review oranlarını görebiliyoruz artık.
 
-![GitHub'ın katkıda bulunma haritasının yeni yüzü]({{ "/image/2018-08-24-github-activity-overview-beta-screenshot.png" | absolute_url }})
+![GitHub'ın katkıda bulunma haritasının yeni yüzü](/image/2018/08/1-github-activity-overview-beta-screenshot.png)
 
 Ayrıca bu özelliği isterseniz kapatabilirsiniz.
