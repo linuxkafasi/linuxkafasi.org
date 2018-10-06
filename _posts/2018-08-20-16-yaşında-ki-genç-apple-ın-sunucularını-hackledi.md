@@ -3,6 +3,8 @@ layout: post
 title:  16 yaşında ki genç Apple'ın sunucularını hackledi
 date:   2018-08-20 23:15 +0300
 author: Berkhan Berkdemir
+
+category: haber
 ---
 
 [Hacker news'ın haberine göre](https://thehackernews.com/2018/08/apple-hack-servers.html) Avusturyalı

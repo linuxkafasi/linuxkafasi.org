@@ -1,8 +1,10 @@
 ---
 layout: post
-title: AWS, Lightsail VPS fiyatlarını yarı yarıya indirdi
-date: 2018-08-24 03:36 +0300
+title:  AWS, Lightsail VPS fiyatlarını yarı yarıya indirdi
+date:   2018-08-24 03:36 +0300
 author: Berkhan Berkdemir
+
+category: haber
 ---
 
 [Lightsail](https://aws.amazon.com/lightsail/) basit VPS ihtiyaçlarını karşılayan bir AWS çözümü ki karşılığı olarak Digital Ocean veya OVH olmakta. 2 yıl içerisinde eklediği özellikler arasında block storage, Windows desteği ve ekstra bölgelerde hizmet olanağı tanıdı.

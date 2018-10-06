@@ -1,8 +1,10 @@
 ---
 layout: post
-title: GitHub artık kullanıcının aktivitelerini detaylı gösterecek
-date: 2018-08-24 23:42 +0300
+title:  GitHub artık kullanıcının aktivitelerini detaylı gösterecek
+date:   2018-08-24 23:42 +0300
 author: Berkhan Berkdemir
+
+category: haber
 ---
 
 GitHub, Microsoft'un alımından sonra gözle görülür bir hızla kullanıcı arabiriminde çok önemli değişikler de bulunudu.

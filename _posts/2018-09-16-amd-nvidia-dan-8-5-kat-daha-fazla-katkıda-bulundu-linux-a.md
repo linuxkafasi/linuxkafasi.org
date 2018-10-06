@@ -1,8 +1,10 @@
 ---
 layout: post
-title: AMD, Nvidia'dan 8.5 kat daha fazla katkıda bulundu Linux'a
-date: 2018-09-16 07:20 +0300
+title:  AMD, Nvidia'dan 8.5 kat daha fazla katkıda bulundu Linux'a
+date:   2018-09-16 07:20 +0300
 author: Berkhan Berkdemir
+
+category: haber
 ---
 
 Bugün itibari ile yapılan git commitlerin de AMD üstünlük sağlıyor net 1,753,343
