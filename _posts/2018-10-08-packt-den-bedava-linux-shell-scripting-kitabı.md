@@ -5,7 +5,7 @@ date: 2018-10-08 19:57 +0300
 author: Berkhan Berkdemir
 
 category: duyuru
-# image:
+image: /image/2018/10/1-linux-shell-scripting-cookbook-third-edition.png
 ---
 
 ![Linux Shell Scripting Cookbook - Üçüncü Basım, Packt](/image/2018/10/1-linux-shell-scripting-cookbook-third-edition.png)
