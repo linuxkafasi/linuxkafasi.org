@@ -1,6 +1,6 @@
 # Site settings
 title: Linux Kafası
-description: Yazılım hakkında haber alırken loop da bırkmayan kaynak
+description: Linux haberlerini takip edebileceğin bir haber platformu
 url: https://linuxkafasi.org
 
 lang: tr
@@ -8,7 +8,7 @@ timezone: Europe/Istanbul
 
 github_username:    linuxkafasi
 instagram_username: linuxkafasi
-twitter_username:   linuxkafas
+twitter_username:   linuxkafasi
 google_analytics:   UA-115651505-2
 
 # Jekyll SEO tag
