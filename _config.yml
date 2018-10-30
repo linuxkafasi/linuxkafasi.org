@@ -30,11 +30,14 @@ webmaster_verifications:
   google: DiLWDO560uylzKdOt5xK0HARv98LeswYPGWsTQBZEPE
   yandex: 7464b07d7e6747e7
 
+plugins:
+- jemoji
+- jekyll-sitemap
+
 # Build settings
 markdown: kramdown
 theme: minima
 sass:
-  sass_dir: _sass
   style: compressed
 permalink: /:year/:month/:slug
 defaults:

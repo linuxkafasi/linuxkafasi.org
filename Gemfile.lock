@@ -246,7 +246,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-compose
-  jemoji
 
 BUNDLED WITH
    1.16.4
