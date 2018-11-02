@@ -14,7 +14,7 @@ google_analytics:   UA-115651505-2
 # Jekyll SEO tag
 ## DOC: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 twitter:
-  username: linuxkafas
+  username: linuxkafasi
   card: summary
 
 logo: favicon.ico
@@ -24,7 +24,7 @@ social:
   links:
   - https://github.com/linuxkafasi
   - https://instagram.com/linuxkafasi
-  - https://twitter.com/linuxkafas
+  - https://twitter.com/linuxkafasi
 
 webmaster_verifications:
   google: DiLWDO560uylzKdOt5xK0HARv98LeswYPGWsTQBZEPE
