@@ -2,6 +2,7 @@
 layout: post
 title: Ubuntu 18.04 üzerine Vtiger CRM kurulumu
 date: 2018-10-31 04:21 +0300
+updated: 2018-11-01 05:44 +0300
 description: Vtiger CRM ile müşterilerinizi kaydedip takip edebilirsiniz veya onlara epostalar yollayabilirsiniz. Aynı zamanda önemli toplantılarınızı buradan oluşturup bütün ekip arkadaşlarınıza gönderebilirsiniz.
 author: Berkhan Berkdemir
 
@@ -161,6 +162,38 @@ sudo apt install -y php7.2 php7.2-common php7.2-curl php7.2-gd php7.2-mysql php7
 Bu komut ile ihtiyacımız olan PHP ve PHP eklentilerini indirmiş oluyoruz. Bu
 işlem sisteminize bağlı olarak uzun veya kısa sürebilir.
 
+#### PHP 7.2 IMAP ve mbstring eklentileri
+
+Bu eklentilerden özellikle mbstring eklentisi en önemli olanı Aksi takdirde
+yorum sistemini kullanamıyorsunuz ve hata döndürüyor size. Bu eklenileri
+kullanabilmek için öncelikle `sources.list`'e ekleme de bulunmamız gerekiyor
+
+```bash
+sudo nano /etc/apt/sources.list
+```
+
+Her satırın en sonuna `universe` ekleyeceğiz
+
+```
+deb http://archive.ubuntu.com/ubuntu bionic main universe
+deb http://archive.ubuntu.com/ubuntu bionic-security main universe
+deb http://archive.ubuntu.com/ubuntu bionic-updates main universe
+```
+
+Şimdi ise `CTRL` + `x` ile kaydedip çıkalım.
+
+Sonraki aşamamız ise paket depomuzu güncellemek olacak.
+
+```bash
+sudo apt update
+```
+
+Ve artık `php7.2-imap` ve `php7.2-mbstring`'i indirebiriz.
+
+```bash
+sudo apt install -y php7.2-imap php7.2-mbsting
+```
+
 ### Vtiger CRM'in indirilmesi
 
 Bu kısımda `wget` ile sıkıştırılmış dosyayı indirip onu `/var/www/html` altına
@@ -216,8 +249,10 @@ Bu kısımda fark ederseniz ki ben eksik iki tane
 PHP eklentisi indirmişim. Bunlardan benim için önemli olanı cURL eklentisi.
 Ben ekstra olarak
 
-> Nedenini bilmediğimiz şekilde php7.2-imap Ubuntu deposunda eksik. Bu neden ile
+> Nedenini bilmediğimiz şekilde `php7.2-imap` Ubuntu deposunda eksik. Bu neden ile
 > gösteremeyeceğim.
+>
+> Güncelleme: `php7.2-imap` ve `php7.2-mbsting` nasıl eklenir bu [linke](#php-72-imap-ve-mbstring-eklentileri) eklendi
 
 ```bash
 sudo apt install -y php7.2-curl
