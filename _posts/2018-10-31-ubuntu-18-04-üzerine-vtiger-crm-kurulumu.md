@@ -2,7 +2,7 @@
 layout: post
 title: Ubuntu 18.04 üzerine Vtiger CRM kurulumu
 date: 2018-10-31 04:21 +0300
-updated: 2018-11-01 05:44 +0300
+updated: 2018-11-02 06:04 +0300
 description: Vtiger CRM ile müşterilerinizi kaydedip takip edebilirsiniz veya onlara epostalar yollayabilirsiniz. Aynı zamanda önemli toplantılarınızı buradan oluşturup bütün ekip arkadaşlarınıza gönderebilirsiniz.
 author: Berkhan Berkdemir
 
