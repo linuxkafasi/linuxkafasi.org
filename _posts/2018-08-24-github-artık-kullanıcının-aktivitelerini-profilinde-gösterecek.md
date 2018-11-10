@@ -5,6 +5,8 @@ date:   2018-08-24 23:42 +0300
 author: Berkhan Berkdemir
 
 category: haber
+tags:
+- GitHub
 ---
 
 GitHub, Microsoft'un alımından sonra gözle görülür bir hızla kullanıcı arabiriminde çok önemli değişikler de bulunudu.

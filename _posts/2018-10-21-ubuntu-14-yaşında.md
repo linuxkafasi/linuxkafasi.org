@@ -5,6 +5,8 @@ date: 2018-10-21 07:26 +0300
 author: Berkhan Berkdemir
 
 category: haber
+tags:
+- Ubuntu
 image: /image/2018/10/2-ubuntu-logo.png
 ---
 

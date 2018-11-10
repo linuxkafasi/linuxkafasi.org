@@ -5,6 +5,9 @@ date: 2018-10-27 05:20 +0300
 author: Berkhan Berkdemir
 
 category: rehber
+tags:
+- Ubuntu
+- Apache HTTP sunucusu
 image: /image/2018/10/3-apache-http-server.png
 ---
 

@@ -5,6 +5,9 @@ date:   2018-11-09 06:12 +0300
 author: Berkhan Berkdemir
 
 category: rehber
+tags:
+- Ubuntu
+- Netplan
 ---
 
 Ubuntu 18.04 ile birlikte artık yeni nesil bir ağ ayarlama aracı geldi &mdash;

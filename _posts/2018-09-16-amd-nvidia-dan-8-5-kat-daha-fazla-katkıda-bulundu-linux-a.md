@@ -5,6 +5,10 @@ date:   2018-09-16 07:20 +0300
 author: Berkhan Berkdemir
 
 category: haber
+tags:
+- AMD
+- Nvidia
+- Linux
 ---
 
 Bugün itibari ile yapılan git commitlerin de AMD üstünlük sağlıyor net 1,753,343

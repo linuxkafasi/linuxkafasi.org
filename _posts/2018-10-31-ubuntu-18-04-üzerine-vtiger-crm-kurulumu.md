@@ -7,6 +7,9 @@ description: Vtiger CRM ile müşterilerinizi kaydedip takip edebilirsiniz veya 
 author: Berkhan Berkdemir
 
 category: rehber
+tags:
+- Ubuntu
+- Vtiger CRM
 image: /image/2018/10/8-vtiger-crm-7-welcome-and-install-page.png
 ---
 

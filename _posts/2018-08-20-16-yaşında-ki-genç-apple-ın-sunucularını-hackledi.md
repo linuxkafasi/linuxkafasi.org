@@ -5,6 +5,8 @@ date:   2018-08-20 23:15 +0300
 author: Berkhan Berkdemir
 
 category: haber
+tags:
+- Apple
 ---
 
 [Hacker news'ın haberine göre](https://thehackernews.com/2018/08/apple-hack-servers.html) Avusturyalı
