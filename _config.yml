@@ -15,7 +15,7 @@ google_analytics:   UA-115651505-2
 ## DOC: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 twitter:
   username: linuxkafasi
-  card: summary
+  card: summary_large_image
 
 logo: favicon.ico
 
