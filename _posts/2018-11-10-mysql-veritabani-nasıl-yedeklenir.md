@@ -8,7 +8,7 @@ category: rehber
 tags:
 - Ubuntu
 - MySQL
-image: /image/2018/11/mysql.png
+image: /image/2018/11/1-mysql.png
 ---
 
 MySQL, açık kaynak kodlu popüler bir ilişkisel veritabanı yönetim sistemidir.
