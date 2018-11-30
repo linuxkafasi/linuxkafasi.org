@@ -32,8 +32,12 @@ webmaster_verifications:
   bing: F0753531671625A58667A9EF265A32CB
 
 plugins:
-- jemoji
+- jekyll-avatar
+- jekyll-gist
+- jekyll-mentions
+- jekyll-redirect-from
 - jekyll-sitemap
+- jemoji
 
 # Build settings
 markdown: kramdown
