@@ -33,6 +33,7 @@ webmaster_verifications:
 
 plugins:
 - jekyll-avatar
+- jekyll-feed
 - jekyll-gist
 - jekyll-mentions
 - jekyll-redirect-from
