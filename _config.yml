@@ -10,6 +10,8 @@ github_username:    linuxkafasi
 instagram_username: linuxkafasi
 twitter_username:   linuxkafasi
 google_analytics:   UA-115651505-2
+disqus:
+  shortname: linuxkafasi
 
 # Jekyll SEO tag
 ## DOC: https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
