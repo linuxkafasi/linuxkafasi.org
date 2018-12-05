@@ -3,6 +3,8 @@ layout: post
 title:  Ubuntu 18.04 için statik IP adresi ayarlama - Netplan
 date:   2018-11-09 06:12 +0300
 author: Berkhan Berkdemir
+seo:
+  type: BlogPosting
 
 category: rehber
 tags:

@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  AWS, Lightsail VPS fiyatlarını yarı yarıya indirdi
-date:   2018-08-24 03:36 +0300
+title: AWS, Lightsail VPS fiyatlarını yarı yarıya indirdi
+date: 2018-08-24 03:36 +0300
 author: Berkhan Berkdemir
+seo:
+  type: NewsArticle
 
 category: haber
 tags:

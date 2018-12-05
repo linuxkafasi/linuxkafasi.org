@@ -3,6 +3,8 @@ layout: post
 title: Güvenlik öncelikli, Google Chrome alternatifi 3 internet tarayıcısı
 date: 2018-11-30 06:33 +0300
 author: Berkhan Berkdemir
+seo:
+  type: BlogPosting
 
 category: rehber
 image: /image/2018/11/5-privacy.jpg

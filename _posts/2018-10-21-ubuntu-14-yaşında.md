@@ -3,6 +3,8 @@ layout: post
 title: Ubuntu 14 yaşında
 date: 2018-10-21 07:26 +0300
 author: Berkhan Berkdemir
+seo:
+  type: NewsArticle
 
 category: haber
 tags:

@@ -3,6 +3,8 @@ layout: post
 title: Red Hat Enterprise Linux 8 Açık Beta yayınlandı
 date: 2018-11-16 02:42 +0300
 author: Berkhan Berkdemir
+seo:
+  type: NewsArticle
 
 category: haber
 tags:

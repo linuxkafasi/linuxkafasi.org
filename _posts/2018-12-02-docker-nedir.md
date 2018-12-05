@@ -3,6 +3,8 @@ layout: post
 title: Docker Nedir?
 date: 2018-12-02 07:10 +0300
 author: Berkhan Berkdemir
+seo:
+  type: BlogPosting
 
 category: nedir
 tags:

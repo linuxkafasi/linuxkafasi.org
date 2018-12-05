@@ -3,6 +3,8 @@ layout: post
 title: DigitalOcean'da Ubuntu 18.04 üzerine Docker kurulumu
 date: 2018-11-28 00:06 +0300
 author: Berkhan Berkdemir
+seo:
+  type: BlogPosting
 
 category: rehber
 tags:

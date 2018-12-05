@@ -3,6 +3,8 @@ layout: post
 title: Oracle VirtualBox kurulumu
 date: 2018-11-30 08:40 +0300
 author: Berkhan Berkdemir
+seo:
+  type: BlogPosting
 
 category: rehber
 tags:

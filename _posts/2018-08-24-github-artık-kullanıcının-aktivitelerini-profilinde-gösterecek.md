@@ -3,6 +3,8 @@ layout: post
 title:  GitHub artık kullanıcının aktivitelerini detaylı gösterecek
 date:   2018-08-24 23:42 +0300
 author: Berkhan Berkdemir
+seo:
+  type: NewsArticle
 
 category: haber
 tags:

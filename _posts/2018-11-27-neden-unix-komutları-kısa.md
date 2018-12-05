@@ -4,6 +4,8 @@ title: Neden UNIX komutları kısa?
 date: 2018-11-27 06:33 +0300
 description: Birçok hikaye mevcut UNIX komutlarının kısa olmasının sebebi konusunda ama Hendrik Jan Thomassen bu konuda da ki asıl sebebini açıklıyor.
 author: Berkhan Berkdemir
+seo:
+  type: BlogPosting
 
 category: rehber
 tags:

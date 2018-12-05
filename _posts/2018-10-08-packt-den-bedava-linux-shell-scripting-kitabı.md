@@ -3,6 +3,8 @@ layout: post
 title: Packt'den bedava Linux Shell Scripting kitabı
 date: 2018-10-08 19:57 +0300
 author: Berkhan Berkdemir
+seo:
+  type: BlogPosting
 
 category: duyuru
 tags:

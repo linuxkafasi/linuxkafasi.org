@@ -3,6 +3,8 @@ layout: post
 title: Ubuntu 18.04 üzerine Apache web sunucusu kurulumu
 date: 2018-10-27 05:20 +0300
 author: Berkhan Berkdemir
+seo:
+  type: BlogPosting
 
 category: rehber
 tags:

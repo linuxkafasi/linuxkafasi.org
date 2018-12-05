@@ -3,6 +3,8 @@ layout: post
 title: MySQL veritabani nasıl yedeklenir
 date: 2018-11-10 08:05 +0300
 author: Berkhan Berkdemir
+seo:
+  type: BlogPosting
 
 category: rehber
 tags:
