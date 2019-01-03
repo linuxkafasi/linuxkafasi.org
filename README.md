@@ -13,6 +13,12 @@ oluşturalarak, [Jekyll][jekyllrb] statik site üreticisi (Static Site Generator
 SSG) sayesinde render ediliyor ve [GitHub Pages][deployments] üzerinde
 barındırılıyor.
 
+Markdown formatında ki metin dosyaları elbette bilgisayarlar tarafından otomatik
+oluşmuyor &mdash; ileri aşamada belki :anguished:. Kısaca, katkıda bulunmak
+istiyorsanız [katkıda bulunma (Contributing)](.github/CONTRIBUTING.md)
+rehberinden ne tür katkılarda bulunabileceğinizi görebilirsiniz ve aşağıda ki
+kurulum rehberine devam edebilirsiniz.
+
 ### Gereksinimler
 
 * [Ruby][ruby-lang] 2.2.5 ve üstü
