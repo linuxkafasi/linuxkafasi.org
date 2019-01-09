@@ -6,10 +6,10 @@ url: https://linuxkafasi.org
 lang: tr
 timezone: Europe/Istanbul
 
-github_username:    linuxkafasi
+github_username: linuxkafasi
 instagram_username: linuxkafasi
-twitter_username:   linuxkafasi
-google_analytics:   UA-115651505-2
+twitter_username: linuxkafasi
+google_analytics: UA-115651505-2
 disqus:
   shortname: linuxkafasi
 
@@ -30,7 +30,7 @@ social:
 
 webmaster_verifications:
   google: DiLWDO560uylzKdOt5xK0HARv98LeswYPGWsTQBZEPE
-  yandex: 7464b07d7e6747e7
+  yandex: 6b403db6b2861102
   bing: F0753531671625A58667A9EF265A32CB
 
 plugins:
