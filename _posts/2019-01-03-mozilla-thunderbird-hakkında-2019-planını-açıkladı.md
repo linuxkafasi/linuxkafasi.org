@@ -10,7 +10,7 @@ category: haber
 tags:
 - Mozilla
 - Thunderbird
-image: /image/2019/01/thunderbird-logo-2018.png
+image: /image/2019/01/1-thunderbird-logo-2018.png
 ---
 
 [Mozilla](https://mozilla.org), Thunderbird e-mail istemcisi için 2019 planını
