@@ -1,4 +1,11 @@
+# NOTE: Please read the documentation if you want to do something crazy
+# https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md
+
 Berkhan Berkdemir:
-  twitter: ' '
+  # it turns off the "twitter:creator @Berkhan Berkdemir" tag
+  twitter: true
   seo:
+    name: Berkhan Berkdemir
     type: Person
+    links:
+    - https://github.com/BerkhanBerkdemir
