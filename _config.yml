@@ -51,3 +51,6 @@ defaults:
   -
     values:
       layout: post
+
+collections:
+- newsletters
