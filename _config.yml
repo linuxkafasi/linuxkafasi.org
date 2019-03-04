@@ -6,9 +6,11 @@ url: https://www.linuxkafasi.org
 lang: tr
 timezone: Europe/Istanbul
 
+email: hi@linuxkafasi.org
 github_username: linuxkafasi
 instagram_username: linuxkafasi
 twitter_username: linuxkafasi
+rss: RSS
 disqus:
   shortname: linuxkafasi
 
