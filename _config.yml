@@ -53,4 +53,5 @@ defaults:
       layout: post
 
 collections:
-- newsletters
+  newsletters:
+    output: true
