@@ -2,10 +2,15 @@
 # https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md
 
 Berkhan Berkdemir:
-  # it turns off the "twitter:creator @Berkhan Berkdemir" tag
-  twitter: true
   seo:
     name: Berkhan Berkdemir
     type: Person
     links:
     - https://github.com/BerkhanBerkdemir
+
+Mustafa Kemal Buçkın:
+  seo:
+    name: Mustafa Kemal Buçkın
+    type: Person
+    links:
+    - https://github.com/mr-aethereus
