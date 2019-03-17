@@ -244,8 +244,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (>= 193)
+  github-pages
   jekyll-compose
+  tzinfo-data
 
 BUNDLED WITH
    2.0.1
