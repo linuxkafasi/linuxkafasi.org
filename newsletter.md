@@ -6,5 +6,8 @@ description: Haftalık Linux ve özgür yazılımlar hakkında haber bülteni
 Linux Kafası üzerinden yayınlanan LKN, haftalık Linux ve özgür yazılımlar
 hakkında haber bülteni, burada listelenecek.
 
-* [#030319](/newsletters/2019-03-03)
-* [#100319](/newsletters/2019-03-10)
+<ul>
+{%- for newsletter in site.newsletters reversed -%}
+  <li><a href="{{ newsletter | relative_url }}">{{ newsletter.title }}</a></li>
+{%- endfor -%}
+</ul>
