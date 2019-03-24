@@ -21,29 +21,29 @@ kurulum rehberine devam edebilirsiniz.
 
 ### Gereksinimler
 
-* [Ruby][ruby-lang] 2.2.5 ve üstü
+* [Ruby][ruby-lang] 2.4.0 ve üstü
 * [RubyGems][rubygems]
 * [GCC][gcc] ve [Make][make]
 
 ### Kurulum
 
 > GitHub üstünde ki [Wiki][wiki] de Ruby, RubyGems, GCC ve Make kurulum
-detaylarını bulacaksınız.
+> detaylarını bulacaksınız.
 
 git kod deposunun kopyasını makinamıza `git clone` ile alalım
 
-    $ git clone https://github.com/linuxkafasi/linuxkafasi.org.git
-    $ cd linuxkafasi.org
+    git clone https://github.com/linuxkafasi/linuxkafasi.org.git
+    cd linuxkafasi.org
 
 Ardından favori metin editörünüzü açın
 
-    $ atom .
+    atom .
 
 Linux Kafası'nın ön izlemesini yapmak istiyorsanız aşağıda ki komutları da
 ayrıca çalıştırmanız gerek
 
-    $ bundle install --path vendor/bundle
-    $ bundle exec jekyll server
+    bundle install --path vendor/bundle
+    bundle exec jekyll server
 
 Arından internet tarayıcınızdan http://127.0.0.1:4000 e gidip yapacağınız
 değişiklikleri görebilirsiniz.
