@@ -57,3 +57,11 @@ defaults:
 collections:
   newsletters:
     output: true
+
+exclude:
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
+- node_modules
+- vendor
