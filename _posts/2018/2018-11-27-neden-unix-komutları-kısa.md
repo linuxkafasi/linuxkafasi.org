@@ -19,6 +19,4 @@ Söylemine göre UNIX komutları `ls`, `cp`, `mv` ve buna benzerleri kısa
 tutulmasının sebebi ise PDP11 konsol tuşlarının sert olmasından dolayı daha az
 tuşa basarak parmak uçlarını acıtmamak.
 
-<div class="video-container">
-  <iframe width="1280" height="720" src="https://www.youtube-nocookie.com/embed/boahlBmc-NY?start=1225" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+{% include youtube.html id="boahlBmc-NY" start="1227" %}
