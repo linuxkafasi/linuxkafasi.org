@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 group :jekyll_plugins do
   gem 'github-pages'
+
+  gem 'jekyll-admin', '~> 0.8.1'
   gem 'jekyll-compose'
 end
 
