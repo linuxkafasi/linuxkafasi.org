@@ -2,6 +2,7 @@
 # https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md
 
 Berkhan Berkdemir:
+  name: Berkhan Berkdemir
   seo:
     name: Berkhan Berkdemir
     type: Person
@@ -9,6 +10,7 @@ Berkhan Berkdemir:
     - https://github.com/BerkhanBerkdemir
 
 Mustafa Kemal Buçkun:
+  name: Mustafa Kemal Buçkun
   seo:
     name: Mustafa Kemal Buçkun
     type: Person
